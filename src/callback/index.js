@@ -20,3 +20,9 @@ function greeting(name) {
 }
 
 setTimeout(greeting, 2000, 'Franlex');
+
+function execCallback(callback) {
+    console.log(`Hola ${callback}`);
+  }
+  
+setTimeout(execCallback, 2000, 'Eduardo');

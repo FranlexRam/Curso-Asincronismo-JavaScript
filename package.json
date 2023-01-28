@@ -10,5 +10,8 @@
     "javascript"
   ],
   "author": "Franlex Ramirez franlex.ramirez@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
