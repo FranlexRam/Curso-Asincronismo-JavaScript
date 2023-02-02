@@ -2,7 +2,7 @@ const promise = new Promise(function (resolve, reject ) {
     resolve('Hey!')
 });
 
-const cows = 15;
+const cows = 9;
 
 const countCows = new Promise (function (resolve, reject){
     if (cows > 10) {
