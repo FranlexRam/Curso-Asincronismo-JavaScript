@@ -13,3 +13,6 @@ function fetchData(urlApi) {
 //     console.log('Hola');
 // })
 // .catch(error => console.log(error));
+
+
+fetchData(`${API}/products`)
